@@ -16,12 +16,10 @@ export default function Home() {
       <main className="flex flex-grow items-center justify-center">
         <div className="w-full max-w-4xl p-4">
           <div className="mx-auto mb-6 w-1/3">
-            {/* Base Sepolia testnet'e bağlanacak şekilde düzeltildi */}
-            <Transaction
-              calls={calls}
-              chainId={84532} // Base Sepolia Chain ID
-              buttonText="Increment Counter"
-              buttonClassName="bg-blue-500 text-white px-4 py-2 rounded"
+            {/* Basitleştirilmiş Transaction bileşeni */}
+            <Transaction 
+              calls={calls} 
+              chainId={84532}
             />
           </div>
         </div>

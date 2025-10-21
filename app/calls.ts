@@ -1,5 +1,8 @@
+// app/calls.ts
+
 const counterContractAddress = '0xCD01BEc13cc523327F35599f19ff8A5d8f3041f4';
 
+// Base Sepolia'da increment fonksiyonunu çağırmak için ABI
 const counterContractAbi = [
   {
     type: 'function',
@@ -23,9 +26,12 @@ const counterContractAbi = [
   },
 ] as const;
 
+// Transaction bileşeni için çağrılar
 export const calls = [
   {
     to: counterContractAddress as `0x${string}`,
-    data: '0xd09de08a', // increment() function selector
+    abi: counterContractAbi,
+    functionName: 'increment',
+    args: [],
   },
 ];
