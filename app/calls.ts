@@ -25,9 +25,7 @@ const counterContractAbi = [
 
 export const calls = [
   {
-    address: counterContractAddress,
-    abi: counterContractAbi,
-    functionName: 'increment',
-    args: [],
+    to: counterContractAddress as `0x${string}`,
+    data: '0xd09de08a', // increment() function selector
   },
 ];
