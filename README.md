@@ -1,39 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-onchain`](https://www.npmjs.com/package/create-onchain).
+# AKT Base App
 
+Base Sepolia testnet üzerinde çalışan basit bir counter uygulaması.
 
-## Getting Started
+## Özellikler
+- Next.js + OnchainKit
+- Foundry smart contracts
+- Base Sepolia testnet entegrasyonu
 
-First, install dependencies:
-
+## Kurulum
 ```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
-
-Next, run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-
-## Learn More
-
-To learn more about OnchainKit, see our [documentation](https://docs.base.org/onchainkit).
-
-To learn more about Next.js, see the [Next.js documentation](https://nextjs.org/docs).
+## Contract Adresi
+`0xCD01BEc13cc523327F35599f19ff8A5d8f3041f4` (Base Sepolia)
